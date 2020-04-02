@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!--
+    Copyright (C) 2020 Dreemurrs Embedded Labs <github.com/dreemurrs-embedded>
+-->
+<manifest>
+    <!-- Remotes -->
+    <remote name="ubports-lavender" fetch="https://github.com/ubports-lavender" revision="halium-9.0" />
+
+    <!-- Device Tree -->
+    <project path="device/xiaomi/lavender" name="android_device_xiaomi_lavender" remote="ubports-lavender" />
+
+    <!-- Kernel -->
+    <project path="kernel/xiaomi/lavender" name="kernel" remote="ubports-lavender" />
+
+    <!-- Proprietary/Vendor blobs -->
+    <project path="vendor/xiaomi/lavender" name="vendor" remote="ubports-lavender" />
+</manifest>
